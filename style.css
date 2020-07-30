@@ -44,23 +44,30 @@ nav.logo{
 }
 
 .nav-items li a{
-    color: #991B8C
+    color: #991B8C;
     font-size: 12px;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.nav-items li a:hover{
+    background-color: yellowgreen;
+    transition: background-color 0.3s;
 }
 h1{
     font-weight: normal;
-    font-size: 26px;
+    font-size: 50px;
     line-height: 30px;
     color: whitesmoke;
 }
 
 header p {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 30px;
     color: #FFFFFF;
-    width: 198px;
+    width: 300px;
     margin-bottom: 48px;
 }
 header a{
@@ -70,8 +77,8 @@ header a{
     color: #232961;
 
     background: #1D5B6F;
-    border-radius: 10px;
-    padding: 12px 48px;
+    border-radius: 20px;
+    padding: 12px 30px;
     display: inline-block;
     transition: 300ms;
 }
@@ -84,8 +91,10 @@ header a:hover{
     display: flex;
     align-items: center;
     margin: 0 24px;
+    padding-top: 70px ;
 }
-header. hero-image{
+
+header .hero-image{
     position: relative;
 }
 header.hero-image img{
@@ -112,4 +121,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.heading{
+    padding-bottom: 100px;
 }
