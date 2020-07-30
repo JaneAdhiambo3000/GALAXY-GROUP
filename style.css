@@ -30,12 +30,12 @@ nav>ul{
 }
 
 nav.logo{
-    font-family: "Roboto",sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #333333;
+    position: absolute;
+    width: 90px;
+    height: 57px;
+    left: 10px;
+    top: 10px;   
+    
 }
 
 .nav-items>li{
@@ -49,17 +49,17 @@ nav.logo{
     font-family: "Roboto", sans-serif;
     text-decoration: none;
 }
-header>h1{
+h1{
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
-    color: #000000;
+    color: whitesmoke;
 }
 
 header p {
     font-size: 18px;
     line-height: 21px;
-    color: #000000;
+    color: #FFFFFF;
     width: 198px;
     margin-bottom: 48px;
 }
@@ -99,7 +99,7 @@ header .hero-image img:hover{
 /* Header */
 
 .header-container{
-    background: #FFFF00;
+    background: #000000;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
